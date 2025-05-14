@@ -6,7 +6,7 @@ import './App.css'
 function Meubotao(){
   const [count, setCount] = useState(0)
   return(
-    <button onClick={()=> setCount((antigo)=>antigo + 1)}>Eu sou um botão {count}</button>
+    <button onClick={()=> setCount((antigo)=>antigo + 1)}>New button{count}</button>
   );
   
 }
